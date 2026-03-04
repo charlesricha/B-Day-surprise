@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const MEMORIES = [
   { id: 1, caption: 'First Pic I saw of you',          accent: 'rgba(201,168,76,0.12)',  src: '/image 1.jpg' },
-  { id: 2, caption: 'Shhot yako ya kwanza',            accent: 'rgba(212,99,122,0.12)',  src: '/image 2.jpg' },
+  { id: 2, caption: 'Shoot yako ya kwanza',            accent: 'rgba(212,99,122,0.12)',  src: '/image 2.jpg' },
   { id: 3, caption: 'Ati anaenda kuswim',              accent: 'rgba(155,127,212,0.12)', src: '/image 3.jpg' },
   { id: 4, caption: 'FLowers @ 200 streak',            accent: 'rgba(108,234,255,0.10)', src: '/image 4.jpg' },
   { id: 5, caption: 'The aroma ya maua 😂',            accent: 'rgba(201,168,76,0.10)',  src: '/image 5.jpg' },
@@ -202,7 +202,7 @@ export default function BirthdayPage() {
             fontSize: '0.65rem',
             letterSpacing: '0.25em',
             textTransform: 'uppercase',
-            color: 'rgba(240,235,255,0.35)',
+            color: 'rgba(255,255,255,0.9)',
           }}>
             scroll
           </span>
