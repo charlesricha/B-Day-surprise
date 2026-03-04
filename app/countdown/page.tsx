@@ -53,7 +53,8 @@ export default function CountdownPage() {
         duration: 8 + Math.random() * 8,
         delay: Math.random() * 6,
         repeat: -1, ease: 'none',
-        onRepeat: () => gsap.set(el, { y: 0, opacity: 0, x: 0 }),
+        /* onRepeat: () => gsap.set(el, { y: 0, opacity: 0, x: 0 }), */
+        onRepeat: () => { gsap.set(el, { y: 0, opacity: 0, x: 0 }); },
       });
     }
   }, []);
