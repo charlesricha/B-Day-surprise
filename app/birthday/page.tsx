@@ -187,7 +187,7 @@ export default function BirthdayPage() {
         {/* Scroll indicator */}
         <div style={{
           position: 'absolute',
-          bottom: '2rem',
+          top: '2rem',
           right: '2.5rem',
           display: 'flex',
           flexDirection: 'column',
